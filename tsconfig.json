@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "lib": ["dom", "dom.iterable", "es2015"],
+      "module": "esnext",
+      "strict": true,
+      "jsx": "react",
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "declaration": true,
+      "declarationDir": "dist/types",
+      "outDir": "dist",
+      "types": ["jest", "@testing-library/jest-dom"]
+    },
+    "include": ["src", "tests"]
+  }
+  
